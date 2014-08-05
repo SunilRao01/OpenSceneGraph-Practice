@@ -1,0 +1,8 @@
+I'm using Ubuntu, so I'm not sure if these directories are the same (they should be though... or at least most of them)
+
+Make sure to set these environment variables when you use OSG:
+(This took me forever to find out, the stupid OSG docs didn't mention the last variable!)
+
+1.) PATH=:/home/name/Documents/Research/OpenSceneGraph/OpenSceneGraph-3.2.1
+2.) LD_LIBRARY_PATH=:/home/name/Documents/Research/OpenSceneGraph/OpenSceneGraph-3.2.1/lib
+3.) OSG_FILE_PATH=/home/name/Documents/Research/OpenSceneGraph/OpenSceneGraph-Data:/home/name/Documents/Research/OpenSceneGraph/OpenSceneGraph-Data/Images
